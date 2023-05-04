@@ -19,6 +19,10 @@ default:
     minimum_messages: 2 # Minimum amount of messages other people post before you repost yours. (Default: 2)
     maximum_messages: 2 # Maximum amount of messages other people post before you repost yours. (Default: 2)
 
+  disboard bump:
+    enabled: true
+    bumpChannel: "bump channel id"
+
   wait_before_start: 0 # How many minutes to wait before starting the script (Default: 0)
   debug_mode: false # If set to true, you will get a log in the console every time a message is sent (Default: false)
   channels: # Channels where to send the message
